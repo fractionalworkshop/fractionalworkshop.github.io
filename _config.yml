@@ -1,0 +1,33 @@
+title: Fractional Differential Equations&#59; Modeling, Discretization, and Numerical Solvers
+tagline: An INdAM Workshop
+description: |
+  The INdAM workshop "Fractional Differential Equations: Modeling, Discretization,
+  and Numerical Solvers" will take place in Rome, July 12-14, 2021 and partially online.
+  The in presence part of the workshop will take place at Best Western
+  Globus Hotel in Viale Ippocrate, 119, 00161, Roma (RM), inside the Ping room.
+url:
+
+# Build settings
+markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    disable : true
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+plugins:
+  - jekyll-font-awesome-sass
+  - rouge
+  - jekyll-leaflet
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+font-awesome:
+  assets: true
+
+sass:
+  sass_dir: _sass
+  style: compressed

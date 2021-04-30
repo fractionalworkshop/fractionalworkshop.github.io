@@ -1,0 +1,26 @@
+- author: M. D'Elia
+  title: TBA
+  time:
+  popup: delia
+  abstract: TBA
+- author: M. K. Ng
+  title: TBA
+  time:
+  popup: ng
+  abstract: |
+    TBA
+- author: A. Salgado
+  title: Numerical methods for spectral fractional diffusion
+  time:
+  popup: salgado
+  abstract: |
+    We present three schemes for the numerical approximation of the spectral
+    fractional Laplacian. The first method uses a rational approximation to
+    approximate negative fractional powers of an operator. The second is a
+    discretization of the so-called Balakrishnan formula, which expresses
+    fractional powers of a positive operator. The third, is a PDE approach that
+    exploits the extension to one higher dimension. We discuss pros and cons of
+    each method, and error estimates. Time permitting, we extend some of these
+    to more general problems, both steady, time dependent; linear, and nonlinear.
+    We show illustrative simulations, applications, and mention challenging
+    open questions.
