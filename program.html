@@ -417,7 +417,7 @@ open questions.</p>
     <tr>
     <td>   </td>
     <td>  S. Massei </td>
-    <td>  TBA </td>
+    <td>  Rational Krylov for evaluating inverse fractional powers&#58; convergence and pole selection </td>
     <td>  <a class="open-popup-link" href="#massei"><i class="fas fa-file-alt"></i></a> </td>
     </tr>
     
@@ -438,7 +438,7 @@ open questions.</p>
     <tr>
     <td>   </td>
     <td>  J. Pearson </td>
-    <td>  TBA </td>
+    <td>  Fast Solvers for Optimization Problems with FDE Constraints </td>
     <td>  <a class="open-popup-link" href="#pearson"><i class="fas fa-file-alt"></i></a> </td>
     </tr>
     
@@ -459,7 +459,7 @@ open questions.</p>
     <tr>
     <td>   </td>
     <td>  M. Stoll </td>
-    <td>  TBA </td>
+    <td>  Low-rank solvers for fractional equations in simulation and optimization </td>
     <td>  <a class="open-popup-link" href="#stoll"><i class="fas fa-file-alt"></i></a> </td>
     </tr>
     
@@ -529,31 +529,35 @@ approach for solving a wide class of fractional models.</p>
 </div>
 
 <div id="massei" class="white-popup mfp-hide">
+  <h4 id="rational-krylov-for-evaluating-inverse-fractional-powers-convergence-and-pole-selection">Rational Krylov for evaluating inverse fractional powers: convergence and pole selection</h4>
+  <p>Evaluating the action of a matrix function on a vector, that is $x=f(\mathcal M)v$, is a ubiquitous task in applications. When the matrix $\mathcal M$ is large, subspace projection methods, such as the rational Krylov method, are usually employed.
+In this work, we provide a quasi-optimal pole choice for rational Krylov methods when $f$ is either Cauchy-Stieltjes or Laplace-Stieltjes for a positive definite matrix $\mathcal M$. This includes the case $f(z)=z^{-\alpha}$ with $\alpha&gt;0$, which arises when solving fractional diffusion problems.</p>
+
+  <p>Then, we consider the case when the argument $\mathcal M$ has the Kronecker structure $\mathcal M=I \otimes A + B \otimes I$, and $v$  is obtained by vectorizing a low-rank matrix. This finds application, for instance, in solving two-dimensional FDEs on rectangular domains.
+We introduce an error analysis for the numerical approximation of $x$. Pole choices and explicit convergence bounds are given also in this case.</p>
+
+</div>
+
+<div id="mazza" class="white-popup mfp-hide">
   <h4 id="tba-6">TBA</h4>
   <p>TBA</p>
 
 </div>
 
-<div id="mazza" class="white-popup mfp-hide">
+<div id="novati" class="white-popup mfp-hide">
   <h4 id="tba-7">TBA</h4>
   <p>TBA</p>
 
 </div>
 
-<div id="novati" class="white-popup mfp-hide">
-  <h4 id="tba-8">TBA</h4>
-  <p>TBA</p>
-
-</div>
-
 <div id="pearson" class="white-popup mfp-hide">
-  <h4 id="tba-9">TBA</h4>
-  <p>TBA</p>
+  <h4 id="fast-solvers-for-optimization-problems-with-fde-constraints">Fast Solvers for Optimization Problems with FDE Constraints</h4>
+  <p>In this talk we consider fast iterative solvers and preconditioners for optimization problems where fractional differential equations act as constraints. A focus is on the multilevel Toeplitz structure of a number of such problems, for which it is found to be valuable to apply multilevel circulant preconditioners to accelerate iterative methods. We also examine problems with additional bound constraints imposed on the solution, and we devise an Alternating Direction Method of Multipliers (ADMM) framework coupled with iterative solvers and multilevel circulant preconditioners for the resulting linear systems. Although we work with dense linear systems, we are able to keep the storage requirements linear with respect to grid size N, while ensuring order N log N computational complexity. We also briefly discuss some other approaches for preconditioning FDE-constrained optimization problems, including a low-rank tensor-product solver which will be outlined in detail by another speaker.</p>
 
 </div>
 
 <div id="popolizio" class="white-popup mfp-hide">
-  <h4 id="tba-10">TBA</h4>
+  <h4 id="tba-8">TBA</h4>
   <p>TBA</p>
 
 </div>
@@ -565,13 +569,15 @@ approach for solving a wide class of fractional models.</p>
 </div>
 
 <div id="stoll" class="white-popup mfp-hide">
-  <h4 id="tba-11">TBA</h4>
-  <p>TBA</p>
+  <h4 id="low-rank-solvers-for-fractional-equations-in-simulation-and-optimization">Low-rank solvers for fractional equations in simulation and optimization</h4>
+  <p>When discretized with finite difference schemes FDEs lead to dense but highly structured linear systems. In particular, we see a Kronecker product structure involving Toeplitz matrices.
+As the curse of dimensionality hits we want to use this structure to approximate the solution to the linear system in low rank form where we approximate the solution with high accuracy but
+a fraction of the storage cost. We will illustrate this both in the simulation as well as the optimization setup.</p>
 
 </div>
 
 <div id="trotti" class="white-popup mfp-hide">
-  <h4 id="tba-12">TBA</h4>
+  <h4 id="tba-9">TBA</h4>
   <p>TBA</p>
 
 </div>
