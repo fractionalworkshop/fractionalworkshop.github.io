@@ -45,7 +45,7 @@
 			MathJax.Hub.Config({
 				tex2jax: {
 					inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-					processEscapes: true
+					processEscapes: true,
 				}
 			});
 		</script>
@@ -419,7 +419,7 @@ open questions.</p>
     
     <tr>
     <td>  P. Novati </td>
-    <td>  TBA </td>
+    <td>  A truncated Laguerre approach for the fractional power of operators </td>
     <td>  <a class="open-popup-link" href="#novati"><i class="fas fa-file-alt"></i></a> </td>
     </tr>
     
@@ -535,8 +535,38 @@ We introduce an error analysis for the numerical approximation of $x$. Pole choi
 </div>
 
 <div id="novati" class="white-popup mfp-hide">
-  <h4 id="tba-1">TBA</h4>
-  <p>TBA</p>
+  <h4 id="a-truncated-laguerre-approach-for-the-fractional-power-of-operators">A truncated Laguerre approach for the fractional power of operators</h4>
+  <p>In this work we consider the numerical approximation of $\mathcal{L}^{-\alpha },$
+$0&lt;\alpha &lt;1$, where $\mathcal{L}$ is a self-adjoint positive
+operator acting on a separable Hilbert space $\mathcal{H}$, with spectrum
+$\sigma (\mathcal{L})\subseteq \lbrack c,+\infty ), c&gt;0$. This problem
+finds immediate application when solving equations involving a fractional
+diffusion term like $(-\Delta )^{\alpha }$ where $\Delta $ denotes the
+standard Laplacian.</p>
+
+  <p>By exploiting the existing representations of the function $\lambda^{-\alpha}$
+in terms of contour integrals, after suitable changes of
+variable and quadrature rules one typically finds rational approximations of
+the type</p>
+
+  <p>$\mathcal{L}^{-\alpha }\approx \mathcal{R}_{n-1,n}(\mathcal{L}),$
+$\mathcal{R}_{n-1,n}(\lambda )=\frac{p_{n-1}(\lambda )}{q_{n}(\lambda )}$,
+$p_{n-1}\in \Pi _{n-1},\,q_{n}\in \Pi _{n}$</p>
+
+  <p>where $n$ is equal or closely related to the number of points of the
+quadrature formula.</p>
+
+  <p>In this work we consider a particular integral representation that leads to
+the the use of a truncated Gauss-Laguerre rule. We show that the error
+decays exponentially and that is well estimated by</p>
+
+  <p>$ 8\sin (\alpha \pi )\exp \left( -5\alpha ^{1/2}k_{n}^{1/2}\right) $</p>
+
+  <p>where $k_{n}$ is number of operator inversions. The method is then very fast
+and the quality of the above estimate allows to define a-priori $n$ and
+$k_{n}$ in order to fulfil a given tolerance. The poles can also be
+fruitfully used to construct a rational Krylov method for applications where
+only the action of $\mathcal{L}^{-\alpha }$ is needed.</p>
 
 </div>
 
