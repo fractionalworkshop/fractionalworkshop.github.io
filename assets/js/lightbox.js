@@ -1,6 +1,6 @@
 function is_youtubelink(url) {
     var p = /^^((?:https?:)?\/\/)?((?:www|m)\.)?((?:youtube\.com|youtu.be))(\/(?:[\w\-]+\?v=|embed\/|v\/)?)([\w\-]+)(\S+)?$/;
-    return (url.match(p)) ? RegExp.$5.concat($6) : false;
+    return (url.match(p)) ? RegExp.$5 : false;
 }
 function is_imagelink(url) {
     var p = /([a-z\-_0-9\/\:\.]*\.(jpg|jpeg|png|gif))/i;
