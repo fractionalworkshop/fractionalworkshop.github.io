@@ -7,6 +7,16 @@ window.database = {
     
       
     
+    "gallery-html": {
+      "title": "Gallery",
+      "category": "",
+      "content": "## Gallery{% include my-gallery.html folder=\"img/album/photo\" %}",
+      "url": "/gallery.html",
+      "href": "/gallery.html"
+    }
+    ,
+  
+    
     "": {
       "title": "Home",
       "category": "",
